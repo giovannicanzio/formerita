@@ -1,0 +1,54 @@
+/* GLOBAL STYLES */
+
+html {
+    font-family: "Verdana", "Arial", sans-serif;
+}
+    
+#formsWrapper * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1em;
+}
+
+/* CONTAINER */
+
+/*
+#formsWrapper,
+#formsWrapper form,
+#formsWrapper form fieldset,
+#formsWrapper form fieldset legend {
+    width: 100%;
+    float: left;
+}*/
+
+.fullWidth {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+/* ### TMP DEBUG CODE */
+
+#formsWrapper {
+    background: #eee;
+}
+
+#formsWrapper form {
+    background: #ccc;
+}
+
+#formsWrapper form fieldset {
+    background: #aaa;
+}
+
+#formsWrapper form fieldset legend {
+    background: #ccc;
+}
