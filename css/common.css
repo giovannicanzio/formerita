@@ -3,31 +3,52 @@
 html {
     font-family: "Verdana", "Arial", sans-serif;
 }
-    
+
+input {
+    border: 1px solid;
+}
+
+#formsWrapper,
 #formsWrapper * {
     margin: 0;
     padding: 0;
     position: relative;
     font-size: 1em;
+    float: left;
+    margin-left: 0 !important;
+    padding-left: 0.9% !important;
 }
 
-/* CONTAINER */
+#formsWrapper label {
+    margin-left: -0.9% !important; /* <-- label compensation for previous padding-left: 1% !important */
+}
 
-/*
-#formsWrapper,
-#formsWrapper form,
-#formsWrapper form fieldset,
-#formsWrapper form fieldset legend {
-    width: 100%;
-    float: left;
-}*/
+
+
+/* BASIC SIZING CLASSES */
 
 .fullWidth {
-    width: 100%;
-    float: left;
+    width: 98.2%;
+    margin: 5px 1% !important;
 }
 
 
+.halfWidth {
+    width: 47.9%;
+    margin: 5px 1% !important;
+}
+
+.thirdWidth {
+    width: 31.23%;
+    margin: 5px 1% !important;
+}
+
+.quarterWidth {
+    width: 22.9%;
+    margin: 5px 1% !important;
+}
+
+/* */
 
 
 
@@ -52,3 +73,4 @@ html {
 #formsWrapper form fieldset legend {
     background: #ccc;
 }
+
