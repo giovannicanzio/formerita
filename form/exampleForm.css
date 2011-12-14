@@ -1,0 +1,76 @@
+/* GLOBAL STYLES */
+
+html {
+    font-family: "Verdana", "Arial", sans-serif;
+}
+
+input {
+    border: 1px solid;
+}
+
+#formsWrapper,
+#formsWrapper * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1em;
+    float: left;
+    margin-left: 0 !important;
+    padding-left: 0.9% !important;
+}
+
+#formsWrapper label {
+    margin-left: -0.9% !important; /* <-- label compensation for previous padding-left: 1% !important */
+}
+
+
+
+/* BASIC SIZING CLASSES */
+
+.fullWidth {
+    width: 98.2%;
+    margin: 5px 1% !important;
+}
+
+
+.halfWidth {
+    width: 47.9%;
+    margin: 5px 1% !important;
+}
+
+.thirdWidth {
+    width: 31.23%;
+    margin: 5px 1% !important;
+}
+
+.quarterWidth {
+    width: 22.9%;
+    margin: 5px 1% !important;
+}
+
+/* */
+
+
+
+
+
+
+
+/* ### TMP DEBUG CODE */
+
+#formsWrapper {
+    background: #eee;
+}
+
+#formsWrapper form {
+    background: #ccc;
+}
+
+#formsWrapper form fieldset {
+    background: #aaa;
+}
+
+#formsWrapper form fieldset legend {
+    background: #ccc;
+}
+

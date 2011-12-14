@@ -1,0 +1,10 @@
+#sidebar-first,
+#sidebar-last,
+#postscript-top {
+    display: none;
+}
+
+#main-inner,
+#content-group {
+    width: 100% !important;
+}
