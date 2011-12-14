@@ -8,7 +8,21 @@
 
 </script>
 
+<style type="text/css">
+    #themeSwitcher {
+        position: fixed;
+        border: #f90 3px solid;
+        background: #fff;
+        padding: 10px 15px;
+        top: 20px;
+        right: 20px;
+        font-family: "Verdana", "Arial", sans-serif;
+        font-size: 10px;
+    }
+</style>
+
 <form action="index.php" method="GET" id="themeSwitcher">
+    <label for="themeSelector">Select theme:</label>
     <select name="theme" id="themeSelector">
         <?php
         foreach ($themesArray as $themeName => $themePath) {
@@ -18,7 +32,7 @@
             }
             ?>
         <option value="<?php echo $themePath?>" <?php echo $selected?>><?php echo $themeName?></option>
-        <?php
+        <?php   
         }
 
     ?>

@@ -1,31 +1,31 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html class="js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
   <title>Acquia Marina | The best tech support around</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
 
-<link rel="alternate" type="application/rss+xml" title="Front page feed" href="http://acquiamarina.fusiondrupalthemes.com/rss.xml">
-<link rel="shortcut icon" href="http://acquiamarina.fusiondrupalthemes.com/sites/all/themes/fusion_acquia_marina/favicon.ico" type="image/x-icon">
-  <link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/node.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/defaults.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/system.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/system-menus.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/user.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/content-module.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/ctools.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/filefield.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/logintoboggan.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/mollom.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/panels.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/fieldgroup.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/views.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/style.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/typography.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish-navbar.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish-vertical.css">
-<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/fusion-acquia-marina-style.css">
-  <link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/grid16-960.css">
+<link rel="alternate" type="application/rss+xml" title="Front page feed" href="http://acquiamarina.fusiondrupalthemes.com/rss.xml" />
+<link rel="shortcut icon" href="http://acquiamarina.fusiondrupalthemes.com/sites/all/themes/fusion_acquia_marina/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/node.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/defaults.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/system.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/system-menus.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/user.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/content-module.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/ctools.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/filefield.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/logintoboggan.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/mollom.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/panels.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/fieldgroup.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/views.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/style.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/typography.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish-navbar.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/superfish-vertical.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/fusion-acquia-marina-style.css"/>
+  <link type="text/css" rel="stylesheet" media="all" href="themes/testing_themes/acquia_marina/files/grid16-960.css"/>
   <!--[if IE 8]>
   <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion/fusion_core/css/ie8-fixes.css" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/fusion_acquia_marina/css/ie8-fixes.css" />
@@ -87,17 +87,17 @@ jQuery.extend(Drupal.settings, { "basePath": "/" });
           <form action="/frontpage?destination=frontpage" accept-charset="UTF-8" method="post" id="user-login-form">
 <div><div class="form-item overlabel-wrapper" id="edit-name-wrapper">
  <label style="text-indent: 0px; cursor: text;" class="overlabel-apply" for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
- <input maxlength="60" name="name" id="edit-name" size="15" class="form-text required" type="text">
+ <input maxlength="60" name="name" id="edit-name" size="15" class="form-text required" type="text"/>
 </div>
 <div class="form-item overlabel-wrapper" id="edit-pass-wrapper">
  <label style="text-indent: 0px; cursor: text;" class="overlabel-apply" for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
- <input name="pass" id="edit-pass" maxlength="60" size="15" class="form-text required" type="password">
+ <input name="pass" id="edit-pass" maxlength="60" size="15" class="form-text required" type="password"/>
 </div>
-<input name="op" id="edit-submit" value="Log in" class="form-submit" type="submit">
+<input name="op" id="edit-submit" value="Log in" class="form-submit" type="submit"/>
 <div class="item-list"><ul><li class="first"><a href="http://acquiamarina.fusiondrupalthemes.com/user/register" title="Create a new user account.">Create new account</a></li>
 <li class="last"><a href="http://acquiamarina.fusiondrupalthemes.com/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input name="form_build_id" id="form-085bb8947e6b3f2b24be6a61bf80c7cf" value="form-085bb8947e6b3f2b24be6a61bf80c7cf" type="hidden">
-<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+</ul></div><input name="form_build_id" id="form-085bb8947e6b3f2b24be6a61bf80c7cf" value="form-085bb8947e6b3f2b24be6a61bf80c7cf" type="hidden"/>
+<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden"/>
 
 </div></form>
         </div>
@@ -119,10 +119,10 @@ jQuery.extend(Drupal.settings, { "basePath": "/" });
 <form action="/" accept-charset="UTF-8" method="post" id="search-theme-form">
 <div>
 <div id="search" class="container-inline">
-    <input class="search-input form-text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-header" size="15" title="Enter the terms you wish to search for" type="text">
-  <input class="search-submit" name="op" value="Search" type="submit">
-  <input name="form_build_id" id="form-2d3f395bda1cb8a2f0e43cb335f8510d" value="form-2d3f395bda1cb8a2f0e43cb335f8510d" type="hidden">
-<input name="form_id" id="edit-search-theme-form" value="search_theme_form" type="hidden">
+    <input class="search-input form-text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-header" size="15" title="Enter the terms you wish to search for" type="text"/>
+  <input class="search-submit" name="op" value="Search" type="submit"/>
+  <input name="form_build_id" id="form-2d3f395bda1cb8a2f0e43cb335f8510d" value="form-2d3f395bda1cb8a2f0e43cb335f8510d" type="hidden"/>
+<input name="form_id" id="edit-search-theme-form" value="search_theme_form" type="hidden"/>
   </div>
 <div class="corner-bottom"><div class="corner-bottom-right corner"></div><div class="corner-bottom-left corner"></div></div>
 </div></form>
@@ -140,7 +140,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/" });
                             <div id="header-site-info" class="header-site-info block">
                 <div id="header-site-info-inner" class="header-site-info-inner inner">
                                     <div id="logo">
-                    <a href="http://acquiamarina.fusiondrupalthemes.com/" title="Home"><img src="themes/testing_themes/acquia_marina/files/logo.png" alt="Home"></a>
+                    <a href="http://acquiamarina.fusiondrupalthemes.com/" title="Home"><img src="themes/testing_themes/acquia_marina/files/logo.png" alt="Home"/></a>
                   </div>
                                                       <div id="site-name-wrapper" class="clearfix">
                                         <span id="site-name"><a href="http://acquiamarina.fusiondrupalthemes.com/" title="Home">Acquia Marina</a></span>
