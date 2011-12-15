@@ -1,7 +1,100 @@
-/* GLOBAL STYLES */
+/* 
+
+STYLE CLASSES SPECS
+
+    .newRow
+        Apply to the element you want to start a new row of elements
+
+
+    .fullWidth
+        Apply on the element you want to be 100% of the parent
+
+
+    .fullWidth_with 
+        Works with .padding class; like .fullWidth but with a bit of padding
+
+
+    .halfWidth 
+        Apply on the element you want to be 50% of the parent
+
+
+    .halfWidth_with 
+        Works with .padding class; like .halfWidth but with a bit of padding
+
+
+    .thirdWidth 
+        Apply on the element you want to be 33% of the parent
+
+
+    .thirdWidth_with 
+        Works with .padding class; like .thirdWidth but with a bit of padding
+
+
+    .quarterWidth 
+        Apply on the element you want to be 25% of the parent
+
+
+    .quarterWidth_with 
+        Works with .padding class; like .quarterWidth but with a bit of padding
+
+
+    .padding
+        A common class to add padding to positioned elements
+
+    .floatLeft
+        An element to float left
+
+    .floatRight
+        An element to float right
+
+
+##################
+
+POINTING AND TIPIZATION CLASSES
+
+    .textField 
+        Refers to a block containing a field with text
+
+    .date
+        Refers to a block containing a field with a date
+
+    .localized
+        Refers to a block containing a field with a value (date or something) wich needs to be localized for readability (REMEMBER to convert it to database standards)
+
+    .radio 
+        Refers to a block containing a radio button
+
+    .checkBox
+        Refers to a block containing a checkbox
+
+    .textArea
+        Refers to a block containing a textarea
+
+    .freeText
+        A block containing free text (presentational or hints)
+
+    .btnsArea
+        A block containing hidden input and buttons
+
+*/
+
+/* ### GLOBAL STYLES ### */
 
 html {
     font-family: "Verdana", "Arial", sans-serif;
+}
+
+
+.floatLeft {
+    float: left !important;
+}
+
+.floatRight {
+    float: right !important;
+}
+
+.newRow {
+    clear: both;
 }
 
 #formsWrapper,
@@ -21,7 +114,9 @@ form input,
 form select,
 form textarea {
     border: 1px solid #9BABB0;
-    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     color: #666666;
     font-family: "Courier", "Courier New"
 }
@@ -30,8 +125,12 @@ form fieldset {
     float: left;
     border: 1px solid #9BABB0;
     border-top: 2em solid #9BABB0;
-    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     padding-bottom: 10px !important;
+    margin-bottom: 20px !important;
+    background: #fff;
 }
 
 form fieldset legend {
@@ -43,6 +142,15 @@ form fieldset legend {
 form label {
     font-size: 0.95em !important;
     font-weight: bolder;
+}
+
+button {
+    background: #ddd;
+    border: 2px solid #9BABB0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5px 10px !important;
 }
 
 
@@ -88,8 +196,19 @@ form .padding {
 }
 
 
+/* ### SPECIFIC ELEMENT STYLE ### */
 
 
+
+.radio label,
+.checkBox label,
+.radio input,
+.checkBox input {
+    width: auto;
+    margin-right: 10px !important;
+    float: left;
+    line-height: 1em;
+}
 
 /* ### TMP DEBUG CODE */
 

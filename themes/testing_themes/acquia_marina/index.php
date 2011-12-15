@@ -52,8 +52,8 @@
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/superfish.js"></script>
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/screenshot.js"></script>
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/script.js"></script>
-<script type="text/javascript" src="themes/testing_themes/acquia_marina/files/jquery.js"></script>
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/acquia-marina-script.js"></script>
+<?php include "modules/jquery_ui_call.php"?>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/" });
