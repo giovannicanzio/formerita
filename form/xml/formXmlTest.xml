@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formXmlTest.xml
+    Created on : December 16, 2011, 3:00 PM
+    Author     : giovannicanzio
+    Description:
+        Purpose of the document follows.
+-->
+
+<form>
+    <fieldset>
+        <span>
+            <element id="1" label="label" field="input_text" name="testVame" value="testValue" />
+            <element id="2" label="label" field="input_text" name="testVame" value="testValue" />
+        </span>
+        <span>
+            <element id="3" label="label" field="input_text" name="testVame" value="testValue" />
+            <element id="4" label="label" field="input_text" name="testVame" value="testValue" />
+        </span>
+    </fieldset>
+</form>
+
+
+<!--
+
+CORRESPONDANT OBJECT:
+
+SimpleXMLElement Object (
+    [fieldset] => SimpleXMLElement Object ( 
+        [group] => Array ( 
+            [0] => SimpleXMLElement Object ( 
+                [element] => Array ( 
+                    [0] => SimpleXMLElement Object ( 
+                        [@attributes] => Array ( 
+                            [id] => 1 
+                            [label] => label 
+                            [field] => input_text 
+                            [name] => testVame 
+                            [value] => testValue 
+                            ) 
+                    ) 
+                    [1] => SimpleXMLElement Object ( 
+                        [@attributes] => Array ( 
+                            [id] => 2 
+                            [label] => label 
+                            [field] => input_text 
+                            [name] => testVame 
+                            [value] => testValue 
+                        ) 
+                    ) 
+                ) 
+             ) 
+             [1] => SimpleXMLElement Object ( 
+                [element] => Array ( 
+                    [0] => SimpleXMLElement Object ( 
+                        [@attributes] => Array ( 
+                            [id] => 3 
+                            [label] => label 
+                            [field] => input_text 
+                            [name] => testVame 
+                            [value] => testValue 
+                        ) 
+                    ) 
+                    [1] => SimpleXMLElement Object ( 
+                        [@attributes] => Array ( 
+                            [id] => 4 
+                            [label] => label 
+                            [field] => input_text 
+                            [name] => testVame 
+                            [value] => testValue 
+                        ) 
+                    ) 
+                ) 
+            ) 
+         ) 
+     ) 
+ ) 
+
+-->

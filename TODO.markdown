@@ -20,3 +20,19 @@
 
 * INTERFACE TO DRAG/DROP ELEMENTS -> BUILD XML
 
+///
+
+TO IMPLEMENT (orderless)
+
+- field check
+    - not null
+    - correct format
+
+- user check
+    - able to view
+    - able to view/edit
+    - able to view/edit/insert
+    - able to delete
+
+
+

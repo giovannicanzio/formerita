@@ -70,6 +70,9 @@ POINTING AND TIPIZATION CLASSES
     .textArea
         Refers to a block containing a textarea
 
+    .email
+        Refers to a block containing a field with a string in e-mail pattern
+
     .freeText
         A block containing free text (presentational or hints)
 

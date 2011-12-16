@@ -49,23 +49,23 @@ $(function(){
                         <input id="exampleForm1_fieldset1_item6" class="fullWidth" type="text" name="exampleForm1_fieldset1_item6_name" value="" />
                     </span>
                     
-                    <span class="textField quarterWidth_with padding">
-                        <label for="exampleForm1_fieldset1_item7" class="fullWidth">label</label>
+                    <span class="email quarterWidth_with padding">
+                        <label for="exampleForm1_fieldset1_item7" class="fullWidth">email</label>
                         <input id="exampleForm1_fieldset1_item7" class="fullWidth" type="text" name="exampleForm1_fieldset1_item7_name" value="" />
                     </span>
                     
-                    <span class="textField quarterWidth_with padding">
-                        <label for="exampleForm1_fieldset1_item8" class="fullWidth">label</label>
+                    <span class="email quarterWidth_with padding">
+                        <label for="exampleForm1_fieldset1_item8" class="fullWidth">email</label>
                         <input id="exampleForm1_fieldset1_item8" class="fullWidth" type="text" name="exampleForm1_fieldset1_item8_name" value="" />
                     </span>
                     
-                    <span class="textField quarterWidth_with padding">
-                        <label for="exampleForm1_fieldset1_item9" class="fullWidth">label</label>
+                    <span class="email quarterWidth_with padding">
+                        <label for="exampleForm1_fieldset1_item9" class="fullWidth">email</label>
                         <input id="exampleForm1_fieldset1_item9" class="fullWidth" type="text" name="exampleForm1_fieldset1_item9_name" value="" />
                     </span>
                     
-                    <span class="textField quarterWidth_with padding">
-                        <label for="exampleForm1_fieldset1_item10" class="fullWidth">label</label>
+                    <span class="email quarterWidth_with padding">
+                        <label for="exampleForm1_fieldset1_item10" class="fullWidth">email</label>
                         <input id="exampleForm1_fieldset1_item10" class="fullWidth" type="text" name="exampleForm1_fieldset1_item10_name" value="" />
                     </span>
                     

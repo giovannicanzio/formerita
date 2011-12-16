@@ -1,0 +1,13 @@
+L'impianto html funziona, su un paio di templates, ma come fase di test può bastare.
+
+Ho integrato jqueryUI.
+
+Ho cercato di mantenere separati la presentazione dall'interazione.
+
+Ho creato un xml, a partire dal quale con una funzione php mando in output dei tag html.
+
+Qui cominciano le perplessità:
+
+    - se uso in nomi dei nodi xml per costruire i tag, tanto vale scrivere in html, no? 
+    - E' anche vero che l'xml mi consente di incapsulare informazioni quali: utenti abilitati, anche per campo, ecc ecc
+    - per ora sono riuscito a scrivere anche gli attributi e a nidificare correttamente gli elementi

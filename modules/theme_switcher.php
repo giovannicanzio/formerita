@@ -25,7 +25,7 @@
     }
 </style>
 
-<form action="index.php" method="GET" id="themeSwitcher">
+<form action="demo.php" method="GET" id="themeSwitcher">
     <label for="themeSelector">Select theme:</label>
     <select name="theme" id="themeSelector">
         <?php

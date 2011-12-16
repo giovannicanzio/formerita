@@ -22,7 +22,7 @@ Just copy/paste the snippet you need and apply the classes corresponding to your
 
 
 ## Dependencies (Software)
-none, so far...
+* SimpleXML module
 
 
 ## How to install the stuff. 
