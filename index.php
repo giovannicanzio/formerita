@@ -37,7 +37,7 @@ function hasChildren($element) {
 }
 
 echo "<textarea style=\"width: 100%; height: 600px;\">";
-htmlentities(hasChildren($xml), ENT_QUOTES);
+hasChildren($xml);
 echo "</textarea>";
 
 //foreach ($xml->fieldset as $fieldset){
