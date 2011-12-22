@@ -13,8 +13,8 @@
 <?php 
 
     include 'modules/theme_switcher.php';
-
-    include 'form/exampleForm.php';
+    
+    include 'modules/formDispatcher.php';
     
 ?>
     

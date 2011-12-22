@@ -115,13 +115,14 @@ form {
 
 form input,
 form select,
-form textarea {
+form textarea,
+.fakeInput {
     border: 1px solid #9BABB0;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     color: #666666;
-    font-family: "Courier", "Courier New"
+    font-family: "Courier", "Courier New" !important;
 }
 
 form fieldset {
@@ -132,7 +133,7 @@ form fieldset {
     -moz-border-radius: 4px;
     border-radius: 4px;
     padding-bottom: 10px !important;
-    margin-bottom: 20px !important;
+    /*margin-bottom: 20px !important;*/
     background: #fff;
 }
 
@@ -142,7 +143,8 @@ form fieldset legend {
     margin-top: -2em !important;
 }
 
-form label {
+form label,
+.fakeLabel{
     font-size: 0.95em !important;
     font-weight: bolder;
 }
@@ -216,16 +218,6 @@ form .padding {
 /* ### TMP DEBUG CODE */
 
 
-#formsWrapper {
-    /*background: #eee;*/
-}
-
-
-
-#formsWrapper form fieldset legend {
-    /*background: #ccc;*/
-}
-
 /* jQuery UI patches */
 
 .ui-tabs .ui-tabs-nav li a {
@@ -235,8 +227,29 @@ form .padding {
 
 .ui-tabs .ui-tabs-nav {
     padding: 0.2em 0.2em 0 !important;
+    float: none !important;
 }
 
-.ui-tabs .ui-tabs-panel {
+.ui-tabs,
+.ui-tabs-panel {
     padding: 0.8em 0.6em !important;
+    /*width: inherit !important;*/
+    width: 98.3% !important;
+}
+
+/* ### THEME SWITCHER */
+
+#themeSwitcher {
+    position: fixed;
+    border: #f90 3px solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 15px;
+    top: 20px;
+    right: 20px;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 10px;
+    z-index: 1000;
 }

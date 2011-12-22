@@ -214,7 +214,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/" });
           
 <?php 
 
- include "form/exampleForm.php";
+ include 'modules/formDispatcher.php';
 
 ?>              
           
