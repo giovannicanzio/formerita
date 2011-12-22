@@ -125,6 +125,12 @@ form textarea,
     font-family: "Courier", "Courier New" !important;
 }
 
+.fakeInput {
+    border: none;
+    background: #ddd;
+    
+}
+
 form fieldset {
     float: left;
     border: 1px solid #9BABB0;

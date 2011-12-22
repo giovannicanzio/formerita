@@ -84,40 +84,29 @@ $(function(){
                             <legend class="fullWidth_with padding">legend</legend>
 
                             <div class="date localized quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item1" class="fullWidth">date 1</label>
-                                <input id="exampleForm1_fieldset2_item1" class="fullWidth" type="text" name="exampleForm1_fieldset2_item1_name" value="" />
+                                <p class="fullWidth fakeLabel">date 1</p>
+                                <p id="exampleForm1_fieldset2_item1" class="fullWidth fakeInput" >gg/mm/aaaa</p>
                             </div>
 
                             <div class="date localized quarterWidth_with padding newRow">
-                                <label for="exampleForm1_fieldset2_item2" class="fullWidth">date 2</label>
-                                <input id="exampleForm1_fieldset2_item2" class="fullWidth" type="text" name="exampleForm1_fieldset2_item2_name" value="" />
+                                <p class="fullWidth fakeLabel">date 2</p>
+                                <p id="exampleForm1_fieldset2_item2" class="fullWidth fakeInput" >gg/mm/aaaa</p>
                             </div>
-
+                            
                             <div class="select thirdWidth_with padding newRow">
-                                <label for="exampleForm1_fieldset2_item3" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item3" class="fullWidth" name="exampleForm1_fieldset2_item3_name" multiple="multiple">
-                                    <option value="1">option 1</option>
-                                    <option value="2">option 2</option>
-                                    <option value="3">option 3</option>
-                                </select>
+                                <p class="fullWidth fakeLabel">select</p>
+                                <p id="exampleForm1_fieldset2_item3_1" class="fullWidth fakeInput" >option1</p>
+                                <p id="exampleForm1_fieldset2_item3_2" class="fullWidth fakeInput" >option1</p>
                             </div>
 
                             <div class="select thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item4" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item4" class="fullWidth" name="exampleForm1_fieldset2_item4_name" >
-                                    <option value="1">option 1</option>
-                                    <option value="2">option 2</option>
-                                    <option value="3">option 3</option>
-                                </select>
+                                <p class="fullWidth fakeLabel">select</p>
+                                <p id="exampleForm1_fieldset2_item4" class="fullWidth fakeInput" >option 1</p>
                             </div>
 
                             <div class="select thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item5" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item5" class="fullWidth" name="exampleForm1_fieldset2_item5_name" >
-                                    <option value="1">option 1</option>
-                                    <option value="2">option 2</option>
-                                    <option value="3">option 3</option>
-                                </select>
+                                <p class="fullWidth fakeLabel">select</p>
+                                <p id="exampleForm1_fieldset2_item5" class="fullWidth fakeInput" >option 1</p>
                             </div>
 
                             <div class="freeText fullWidth_with padding">
@@ -125,23 +114,7 @@ $(function(){
                             </div>
 
                             <div class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item6" class="fullWidth">radio 1</label>
-                                <input id="exampleForm1_fieldset2_item6" class="localized fullWidth" type="radio" name="exampleForm1_fieldset2_item6_name" value="1" />
-                            </div>
-
-                            <div class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item7" class="fullWidth">radio 2</label>
-                                <input id="exampleForm1_fieldset2_item7" class="localized fullWidth" type="radio" name="exampleForm1_fieldset2_item6_name" value="2" />
-                            </div>
-
-                            <div class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item8" class="fullWidth">radio 3</label>
-                                <input id="exampleForm1_fieldset2_item8" class="localized fullWidth" type="radio" name="exampleForm1_fieldset2_item6_name" value="3" />
-                            </div>
-
-                            <div class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item9" class="fullWidth">radio 4</label>
-                                <input id="exampleForm1_fieldset2_item9" class="localized fullWidth" type="radio" name="exampleForm1_fieldset2_item6_name" value="4" />
+                                <p id="exampleForm1_fieldset2_item6" class="fullWidth fakeInput" >radio 1</p>
                             </div>
 
                             <div class="freeText fullWidth_with padding">
@@ -149,33 +122,18 @@ $(function(){
                             </div>
 
                             <div class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item10" class="fullWidth">checkbox 1</label>
-                                <input id="exampleForm1_fieldset2_item10" class="localized fullWidth" type="checkbox" name="exampleForm1_fieldset2_item10_name" value="a" />
+                                <p id="exampleForm1_fieldset2_item7_1" class="fullWidth fakeInput" >checkbox 1</p>
+                                <p id="exampleForm1_fieldset2_item7_2" class="fullWidth fakeInput" >checkbox 2</p>
                             </div>
 
-                            <div class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item11" class="fullWidth">checkbox 2</label>
-                                <input id="exampleForm1_fieldset2_item11" class="localized fullWidth" type="checkbox" name="exampleForm1_fieldset2_item11_name" value="b" />
-                            </div>
-
-                            <div class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item12" class="fullWidth">checkbox 3</label>
-                                <input id="exampleForm1_fieldset2_item12" class="localized fullWidth" type="checkbox" name="exampleForm1_fieldset2_item12_name" value="c" />
-                            </div>
-
-                            <div class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item13" class="fullWidth">checkbox 4</label>
-                                <input id="exampleForm1_fieldset2_item13" class="localized fullWidth" type="checkbox" name="exampleForm1_fieldset2_item13_name" value="d" />
+                            <div class="textArea halfWidth_with padding newRow">
+                                <p class="fullWidth fakeLabel">Notes 1</p>
+                                <p id="exampleForm1_fieldset2_item8" class="fullWidth fakeInput" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget libero ut nibh semper venenatis id vitae est. Vivamus varius egestas nisi. Donec in purus elit. Nulla vitae sodales leo. Etiam vestibulum, ipsum ultrices bibendum molestie, lorem mauris rhoncus dolor, vitae fringilla sapien nunc vitae quam. Cras condimentum condimentum aliquam. Integer id odio lectus. Fusce ut magna velit, sed interdum nunc. Nunc vel tellus lacus.</p>
                             </div>
 
                             <div class="textArea halfWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item14" class="fullWidth">Notes 1</label>
-                                <textarea id="exampleForm1_fieldset2_item14" class="fullWidth" name="exampleForm1_fieldset2_item14_name"></textarea>
-                            </div>
-
-                            <div class="textArea halfWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item15" class="fullWidth">Notes 2</label>
-                                <textarea id="exampleForm1_fieldset2_item15" class="fullWidth" name="exampleForm1_fieldset2_item15_name"></textarea>
+                                <p class="fullWidth fakeLabel">Notes 2</p>
+                                <p id="exampleForm1_fieldset2_item9" class="fullWidth fakeInput" >Etiam ullamcorper adipiscing diam, dignissim faucibus sem bibendum vitae. Curabitur et augue sit amet erat pretium auctor. Etiam condimentum orci fermentum sapien tincidunt mollis. Donec vel est in felis gravida dictum. Pellentesque id malesuada velit. Fusce auctor ante sed ligula tincidunt ullamcorper. </p>
                             </div>
 
 
