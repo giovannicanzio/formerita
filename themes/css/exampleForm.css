@@ -233,7 +233,6 @@ form .padding {
 .ui-tabs,
 .ui-tabs-panel {
     padding: 0.8em 0.6em !important;
-    /*width: inherit !important;*/
     width: 98.3% !important;
 }
 
