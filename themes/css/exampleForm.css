@@ -103,7 +103,7 @@ html {
 #formsWrapper,
 #formsWrapper * {
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     position: relative;
     font-size: 1em;
     float: left;
@@ -139,7 +139,7 @@ form fieldset {
 form fieldset legend {
     font-size: 1.2em !important;
     font-weight: bolder;
-    margin-top: -1.8em !important;
+    margin-top: -2em !important;
 }
 
 form label {
@@ -165,7 +165,7 @@ button {
 }
 
 .fullWidth_with {
-    width: 98%;
+    width: 99%;
 }
 
 .halfWidth {
@@ -173,7 +173,7 @@ button {
 }
 
 .halfWidth_with {
-    width: 48%;
+    width: 49%;
 }
 
 .thirdWidth {
@@ -181,7 +181,7 @@ button {
 }
 
 .thirdWidth_with {
-    width: 31.3%;
+    width: 32.33%;
 }
 
 .quarterWidth {
@@ -189,13 +189,13 @@ button {
 }
 
 .quarterWidth_with {
-    width: 23%;
+    width: 24%;
 }
 
 /* */
 
 form .padding {
-    padding: 5px 1% !important;
+    padding: 5px 0.5% !important;
 }
 
 
@@ -235,5 +235,8 @@ form .padding {
 
 .ui-tabs .ui-tabs-nav {
     padding: 0.2em 0.2em 0 !important;
-    width: 100%;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: 0.8em 0.6em !important;
 }

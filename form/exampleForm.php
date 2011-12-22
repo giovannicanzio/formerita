@@ -23,7 +23,7 @@ $(function(){
                         <li><a href="#tabs-2">tab 2</a></li>
                     </ul>
                     <div id="tabs-1">
-                        <fieldset class="fullWidth">
+                        <fieldset class="fullWidth_with padding">
 
                             <legend class="fullWidth_with padding">legend</legend>
 
@@ -81,7 +81,7 @@ $(function(){
                         </fieldset>
                     </div>
                     <div id="tabs-2">
-                        <fieldset class="fullWidth">
+                        <fieldset class="fullWidth_with padding">
                             <legend class="fullWidth_with padding">legend</legend>
 
                             <span class="date localized quarterWidth_with padding">
