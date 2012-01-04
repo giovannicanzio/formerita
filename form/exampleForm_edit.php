@@ -1,3 +1,21 @@
+<?php
+#
+#    Formerita
+#    (c) 2011 Giovanni Canzio <giovanni.canzio@gmail.com>
+#    
+#    This file is part of Formerita
+#
+#    This is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Formerita is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+?>
 <script type="text/javascript">
 $(function(){
 
@@ -28,7 +46,7 @@ $(function(){
 
                             <p class="textField fullWidth_with padding">
                                 <label for="exampleForm1_fieldset1_item1" class="fullWidth ">label</label>
-                                <input id="exampleForm1_fieldset1_item1" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item1_name" value=""  />
+                                <input id="exampleForm1_fieldset1_item1" class="mandatory fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item1_name" value=""  />
                             </p>
 
                             <p class="textField halfWidth_with padding">
