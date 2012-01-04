@@ -11,7 +11,7 @@
    <!--[if IE 6]><link rel="stylesheet" href="/demo/themes/danland/style.ie6.css" type="text/css" /><![endif]-->
   <script src="themes/testing_themes/danland/files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="themes/testing_themes/danland/files/js_a171f06e8ae02421bedb37236a3a2bb3.js"></script>
   <link type="text/css" href="themes/css/exampleForm.css" rel="stylesheet" />
-<?php include "modules/jquery_ui_call.php"?>
+<?php include "modules/scriptsCall.php"?>
   <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/demo/", "cron": { "basePath": "/demo/poormanscron", "runNext": 1323847458 } });

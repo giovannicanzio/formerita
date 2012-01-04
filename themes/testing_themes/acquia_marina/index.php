@@ -54,7 +54,7 @@
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/script.js"></script>
 <script type="text/javascript" src="themes/testing_themes/acquia_marina/files/acquia-marina-script.js"></script>
 <link type="text/css" href="themes/css/exampleForm.css" rel="stylesheet" />
-<?php include "modules/jquery_ui_call.php"?>
+<?php include "modules/scriptsCall.php"?>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/" });

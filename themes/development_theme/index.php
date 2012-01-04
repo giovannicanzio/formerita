@@ -23,7 +23,7 @@
         <title>formerita | a form framework</title>
         <link type="text/css" href="themes/development_theme/css/common.css" rel="stylesheet" />
         <link type="text/css" href="themes/css/exampleForm.css" rel="stylesheet" />
-        <?php include "modules/jquery_ui_call.php"?>
+        <?php include "modules/scriptsCall.php"?>
     </head>
     
     <body>

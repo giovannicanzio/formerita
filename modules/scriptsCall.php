@@ -21,3 +21,28 @@
 <script type="text/javascript" src="themes/script/jquery_ui/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="themes/script/jquery_ui/js/jquery-ui-1.8.16.custom.min.js"></script>
 <!-- -->
+
+<script type="text/javascript">
+$(function(){
+                <?php 
+                    
+                    // If in edit mode enable form tools (calendar etc...)
+                
+                    if ($_POST['action'] == "edit") {
+                
+                ?>
+                // Datepicker
+                $('.date input').datepicker({
+                    inline: true,
+                    dateFormat: 'dd/mm/yy'
+                });
+                <?php 
+                
+                    }
+                
+                ?>                
+                // tabs
+                $('#tabs').tabs();
+
+            });
+</script>

@@ -16,24 +16,9 @@
 #    GNU General Public License for more details.
 #
 ?>
-<script type="text/javascript">
-$(function(){
-
-                // Datepicker
-                $('.date input').datepicker({
-                    inline: true,
-                    dateFormat: 'dd/mm/yy'
-                });
-                
-                // tabs
-                $('#tabs').tabs();
-
-
-            });
-</script>
         <div id="formsWrapper" class="fullWidth">
         
-            <form name="exampleForm1" method="POST" action="#" id="exampleForm1_id" class="fullWidth">
+            <form name="exampleForm1" method="POST" action="#" id="exampleForm1_id" class="formerita fullWidth">
                 <div id="tabs">        
                     <ul>
                         <li><a href="#tabs-1">tab 1</a></li>
@@ -42,56 +27,56 @@ $(function(){
                     <div id="tabs-1">
                         <fieldset class="fullWidth_with padding">
 
-                            <legend class="fullWidth_with padding">legend</legend>
+                            <legend class="">legend</legend>
 
                             <p class="textField fullWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item1" class="fullWidth ">label</label>
-                                <input id="exampleForm1_fieldset1_item1" class="mandatory fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item1_name" value=""  />
+                                <label for="exampleForm1_fieldset1_item1" class=" ">label</label>
+                                <input id="exampleForm1_fieldset1_item1" class="mandatory" type="text" name="exampleForm1_fieldset1_item1_name" value=""  />
                             </p>
 
                             <p class="textField halfWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item2" class="fullWidth">label</label>
-                                <input id="exampleForm1_fieldset1_item2" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item2_name" value="" />
+                                <label for="exampleForm1_fieldset1_item2" class="">label</label>
+                                <input id="exampleForm1_fieldset1_item2" class="" type="text" name="exampleForm1_fieldset1_item2_name" value="" />
                             </p>
 
                             <p class="textField halfWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item3" class="fullWidth">label</label>
-                                <input id="exampleForm1_fieldset1_item3" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item3_name" value="" />
+                                <label for="exampleForm1_fieldset1_item3" class="">label</label>
+                                <input id="exampleForm1_fieldset1_item3" class="" type="text" name="exampleForm1_fieldset1_item3_name" value="" />
                             </p>
 
                             <p class="textField thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item4" class="fullWidth">label</label>
-                                <input id="exampleForm1_fieldset1_item4" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item4_name" value="" />
+                                <label for="exampleForm1_fieldset1_item4" class="">label</label>
+                                <input id="exampleForm1_fieldset1_item4" class="" type="text" name="exampleForm1_fieldset1_item4_name" value="" />
                             </p>
 
                             <p class="textField thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item5" class="fullWidth">label</label>
-                                <input id="exampleForm1_fieldset1_item5" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item5_name" value="" />
+                                <label for="exampleForm1_fieldset1_item5" class="">label</label>
+                                <input id="exampleForm1_fieldset1_item5" class="" type="text" name="exampleForm1_fieldset1_item5_name" value="" />
                             </p>
 
                             <p class="textField thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item6" class="fullWidth">label</label>
-                                <input id="exampleForm1_fieldset1_item6" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item6_name" value="" />
+                                <label for="exampleForm1_fieldset1_item6" class="">label</label>
+                                <input id="exampleForm1_fieldset1_item6" class="" type="text" name="exampleForm1_fieldset1_item6_name" value="" />
                             </p>
 
                             <p class="email quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item7" class="fullWidth">email</label>
-                                <input id="exampleForm1_fieldset1_item7" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item7_name" value="" />
+                                <label for="exampleForm1_fieldset1_item7" class="">email</label>
+                                <input id="exampleForm1_fieldset1_item7" class="" type="text" name="exampleForm1_fieldset1_item7_name" value="" />
                             </p>
 
                             <p class="email quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item8" class="fullWidth">email</label>
-                                <input id="exampleForm1_fieldset1_item8" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item8_name" value="" />
+                                <label for="exampleForm1_fieldset1_item8" class="">email</label>
+                                <input id="exampleForm1_fieldset1_item8" class="" type="text" name="exampleForm1_fieldset1_item8_name" value="" />
                             </p>
 
                             <p class="email quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item9" class="fullWidth">email</label>
-                                <input id="exampleForm1_fieldset1_item9" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item9_name" value="" />
+                                <label for="exampleForm1_fieldset1_item9" class="">email</label>
+                                <input id="exampleForm1_fieldset1_item9" class="" type="text" name="exampleForm1_fieldset1_item9_name" value="" />
                             </p>
 
                             <p class="email quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset1_item10" class="fullWidth">email</label>
-                                <input id="exampleForm1_fieldset1_item10" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset1_item10_name" value="" />
+                                <label for="exampleForm1_fieldset1_item10" class="">email</label>
+                                <input id="exampleForm1_fieldset1_item10" class="" type="text" name="exampleForm1_fieldset1_item10_name" value="" />
                             </p>
 
 
@@ -99,21 +84,21 @@ $(function(){
                     </div>
                     <div id="tabs-2">
                         <fieldset class="fullWidth_with padding">
-                            <legend class="fullWidth_with padding">legend</legend>
+                            <legend class="">legend</legend>
 
                             <p class="date localized quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item1" class="fullWidth">date 1</label>
-                                <input id="exampleForm1_fieldset2_item1" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset2_item1_name" value="" />
+                                <label for="exampleForm1_fieldset2_item1" class="">date 1</label>
+                                <input id="exampleForm1_fieldset2_item1" class="" type="text" name="exampleForm1_fieldset2_item1_name" value="" />
                             </p>
 
                             <p class="date localized quarterWidth_with padding newRow">
-                                <label for="exampleForm1_fieldset2_item2" class="fullWidth">date 2</label>
-                                <input id="exampleForm1_fieldset2_item2" class="fullWidth_with padding" type="text" name="exampleForm1_fieldset2_item2_name" value="" />
+                                <label for="exampleForm1_fieldset2_item2" class="">date 2</label>
+                                <input id="exampleForm1_fieldset2_item2" class="" type="text" name="exampleForm1_fieldset2_item2_name" value="" />
                             </p>
 
                             <p class="select thirdWidth_with padding newRow">
-                                <label for="exampleForm1_fieldset2_item3" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item3" class="fullWidth_with padding" name="exampleForm1_fieldset2_item3_name" multiple="multiple">
+                                <label for="exampleForm1_fieldset2_item3" class="">select</label>
+                                <select id="exampleForm1_fieldset2_item3" class="" name="exampleForm1_fieldset2_item3_name" multiple="multiple">
                                     <option value="1">option 1</option>
                                     <option value="2">option 2</option>
                                     <option value="3">option 3</option>
@@ -121,8 +106,8 @@ $(function(){
                             </p>
 
                             <p class="select thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item4" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item4" class="fullWidth_with padding" name="exampleForm1_fieldset2_item4_name" >
+                                <label for="exampleForm1_fieldset2_item4" class="">select</label>
+                                <select id="exampleForm1_fieldset2_item4" class="" name="exampleForm1_fieldset2_item4_name" >
                                     <option value="1">option 1</option>
                                     <option value="2">option 2</option>
                                     <option value="3">option 3</option>
@@ -130,8 +115,8 @@ $(function(){
                             </p>
 
                             <p class="select thirdWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item5" class="fullWidth">select</label>
-                                <select id="exampleForm1_fieldset2_item5" class="fullWidth_with padding" name="exampleForm1_fieldset2_item5_name" >
+                                <label for="exampleForm1_fieldset2_item5" class="">select</label>
+                                <select id="exampleForm1_fieldset2_item5" class="" name="exampleForm1_fieldset2_item5_name" >
                                     <option value="1">option 1</option>
                                     <option value="2">option 2</option>
                                     <option value="3">option 3</option>
@@ -143,23 +128,23 @@ $(function(){
                             </p>
 
                             <p class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item6" class="fullWidth">radio 1</label>
-                                <input id="exampleForm1_fieldset2_item6" class="localized fullWidth_with padding" type="radio" name="exampleForm1_fieldset2_item6_name" value="1" />
+                                <label for="exampleForm1_fieldset2_item6" class="">radio 1</label>
+                                <input id="exampleForm1_fieldset2_item6" class="localized" type="radio" name="exampleForm1_fieldset2_item6_name" value="1" />
                             </p>
 
                             <p class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item7" class="fullWidth">radio 2</label>
-                                <input id="exampleForm1_fieldset2_item7" class="localized fullWidth_with padding" type="radio" name="exampleForm1_fieldset2_item6_name" value="2" />
+                                <label for="exampleForm1_fieldset2_item7" class="">radio 2</label>
+                                <input id="exampleForm1_fieldset2_item7" class="localized" type="radio" name="exampleForm1_fieldset2_item6_name" value="2" />
                             </p>
 
                             <p class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item8" class="fullWidth">radio 3</label>
-                                <input id="exampleForm1_fieldset2_item8" class="localized fullWidth_with padding" type="radio" name="exampleForm1_fieldset2_item6_name" value="3" />
+                                <label for="exampleForm1_fieldset2_item8" class="">radio 3</label>
+                                <input id="exampleForm1_fieldset2_item8" class="localized" type="radio" name="exampleForm1_fieldset2_item6_name" value="3" />
                             </p>
 
                             <p class="radio quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item9" class="fullWidth">radio 4</label>
-                                <input id="exampleForm1_fieldset2_item9" class="localized fullWidth_with padding" type="radio" name="exampleForm1_fieldset2_item6_name" value="4" />
+                                <label for="exampleForm1_fieldset2_item9" class="">radio 4</label>
+                                <input id="exampleForm1_fieldset2_item9" class="localized" type="radio" name="exampleForm1_fieldset2_item6_name" value="4" />
                             </p>
 
                             <p class="freeText fullWidth_with padding">
@@ -167,33 +152,33 @@ $(function(){
                             </p>
 
                             <p class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item10" class="fullWidth">checkbox 1</label>
-                                <input id="exampleForm1_fieldset2_item10" class="localized fullWidth_with padding" type="checkbox" name="exampleForm1_fieldset2_item10_name" value="a" />
+                                <label for="exampleForm1_fieldset2_item10" class="">checkbox 1</label>
+                                <input id="exampleForm1_fieldset2_item10" class="localized" type="checkbox" name="exampleForm1_fieldset2_item10_name" value="a" />
                             </p>
 
                             <p class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item11" class="fullWidth">checkbox 2</label>
-                                <input id="exampleForm1_fieldset2_item11" class="localized fullWidth_with padding" type="checkbox" name="exampleForm1_fieldset2_item11_name" value="b" />
+                                <label for="exampleForm1_fieldset2_item11" class="">checkbox 2</label>
+                                <input id="exampleForm1_fieldset2_item11" class="localized" type="checkbox" name="exampleForm1_fieldset2_item11_name" value="b" />
                             </p>
 
                             <p class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item12" class="fullWidth">checkbox 3</label>
-                                <input id="exampleForm1_fieldset2_item12" class="localized fullWidth_with padding" type="checkbox" name="exampleForm1_fieldset2_item12_name" value="c" />
+                                <label for="exampleForm1_fieldset2_item12" class="">checkbox 3</label>
+                                <input id="exampleForm1_fieldset2_item12" class="localized" type="checkbox" name="exampleForm1_fieldset2_item12_name" value="c" />
                             </p>
 
                             <p class="checkBox quarterWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item13" class="fullWidth">checkbox 4</label>
-                                <input id="exampleForm1_fieldset2_item13" class="localized fullWidth_with padding" type="checkbox" name="exampleForm1_fieldset2_item13_name" value="d" />
+                                <label for="exampleForm1_fieldset2_item13" class="">checkbox 4</label>
+                                <input id="exampleForm1_fieldset2_item13" class="localized" type="checkbox" name="exampleForm1_fieldset2_item13_name" value="d" />
                             </p>
 
                             <p class="textArea halfWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item14" class="fullWidth">Notes 1</label>
-                                <textarea id="exampleForm1_fieldset2_item14" class="fullWidth_with padding" name="exampleForm1_fieldset2_item14_name"></textarea>
+                                <label for="exampleForm1_fieldset2_item14" class="">Notes 1</label>
+                                <textarea id="exampleForm1_fieldset2_item14" class="" name="exampleForm1_fieldset2_item14_name"></textarea>
                             </p>
 
                             <p class="textArea halfWidth_with padding">
-                                <label for="exampleForm1_fieldset2_item15" class="fullWidth">Notes 2</label>
-                                <textarea id="exampleForm1_fieldset2_item15" class="fullWidth_with padding" name="exampleForm1_fieldset2_item15_name"></textarea>
+                                <label for="exampleForm1_fieldset2_item15" class="">Notes 2</label>
+                                <textarea id="exampleForm1_fieldset2_item15" class="" name="exampleForm1_fieldset2_item15_name"></textarea>
                             </p>
 
 

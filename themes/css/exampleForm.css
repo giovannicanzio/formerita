@@ -102,25 +102,30 @@ POINTING AND TIPIZATION CLASSES
 
 /* ### GLOBAL STYLES ### */
 
-html {
+html 
+{
     font-family: "Verdana", "Arial", sans-serif;
 }
 
 
-.floatLeft {
+.floatLeft 
+{
     float: left !important;
 }
 
-.floatRight {
+.floatRight 
+{
     float: right !important;
 }
 
-.newRow {
+.newRow 
+{
     clear: both;
 }
 
 #formsWrapper,
-#formsWrapper * {
+#formsWrapper * 
+{
     margin: 0;
     /*padding: 0;*/
     position: relative;
@@ -128,14 +133,16 @@ html {
     float: left;
 }
 
-form {
+.formerita 
+{
     color: #333;
 }
 
-form input,
-form select,
-form textarea,
-.fakeInput {
+.formerita input,
+.formerita select,
+.formerita textarea,
+.fakeInput 
+{
     border: 1px solid #9BABB0;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -144,13 +151,15 @@ form textarea,
     font-family: "Courier", "Courier New" !important;
 }
 
-.fakeInput {
+.fakeInput 
+{
     border: none;
     background: #ddd;
     
 }
 
-form fieldset {
+.formerita fieldset 
+{
     float: left;
     border: 1px solid #9BABB0;
     border-top: 2em solid #9BABB0;
@@ -162,19 +171,22 @@ form fieldset {
     background: #fff;
 }
 
-form fieldset legend {
+.formerita fieldset legend 
+{
     font-size: 1.2em !important;
     font-weight: bolder;
     margin-top: -2em !important;
 }
 
-form label,
-.fakeLabel{
+.formerita label,
+.fakeLabel
+{
     font-size: 0.95em !important;
     font-weight: bolder;
 }
 
-button {
+button 
+{
     background: #ddd;
     border: 2px solid #9BABB0;
     -webkit-border-radius: 4px;
@@ -187,41 +199,60 @@ button {
 
 /* BASIC SIZING CLASSES */
 
-.fullWidth {
+.fullWidth, 
+.fullWidth * label /* <--  labels are ALWAYS 100% */
+{
     width: 100%;
 }
 
-.fullWidth_with {
+.fullWidth_with
+{
     width: 99%;
 }
 
-.halfWidth {
+.halfWidth 
+{
     width: 50%;
 }
 
-.halfWidth_with {
+.halfWidth_with 
+{
     width: 49%;
 }
 
-.thirdWidth {
+.thirdWidth 
+{
     width: 33%;
 }
 
-.thirdWidth_with {
+.thirdWidth_with 
+{
     width: 32.33%;
 }
 
-.quarterWidth {
+.quarterWidth 
+{
     width: 25%;
 }
 
-.quarterWidth_with {
+.quarterWidth_with 
+{
     width: 24%;
 }
 
 /* */
 
-form .padding {
+.fullWidth * .padding
+{
+    padding: 5px 0.5% !important;
+}
+
+.formerita legend,
+.formerita * input,
+.formerita * select,
+.formerita * textarea
+{
+    width: 99%;
     padding: 5px 0.5% !important;
 }
 
@@ -233,10 +264,11 @@ form .padding {
 .radio label,
 .checkBox label,
 .radio input,
-.checkBox input {
+.checkBox input 
+{
     width: auto;
     margin-right: 10px !important;
-    float: left;
+    float: none !important;
     line-height: 1em;
     clear: both;
 }
@@ -246,25 +278,29 @@ form .padding {
 
 /* jQuery UI patches */
 
-.ui-tabs .ui-tabs-nav li a {
+.ui-tabs .ui-tabs-nav li a 
+{
     float: left !important;
     padding: 0.5em 1em !important;
 }
 
-.ui-tabs .ui-tabs-nav {
+.ui-tabs .ui-tabs-nav 
+{
     padding: 0.2em 0.2em 0 !important;
     float: none !important;
 }
 
 .ui-tabs,
-.ui-tabs-panel {
+.ui-tabs-panel 
+{
     padding: 0.8em 0.6em !important;
     width: 98.3% !important;
 }
 
 /* ### THEME SWITCHER */
 
-#themeSwitcher {
+#themeSwitcher 
+{
     position: fixed;
     border: #f90 3px solid;
     -webkit-border-radius: 4px;
