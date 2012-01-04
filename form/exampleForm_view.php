@@ -1,21 +1,30 @@
+<!-- 
+
+Using  readonly="readonly" instead of disabled="disabled" makes tab browsing possible and avoids accessibility issues related to this.
+
+Blanking name attribute makes it more secure, avoiding malitious readonly override (via debugger, for example); values won't have a name correspondance; 
+anyway it's STRONGLY recommended to set up a security policy in the backend development.
+
+-->
+
 <script type="text/javascript">
 $(function(){
-
+                
                 // Datepicker
-                $('.date input').datepicker({
-                    inline: true,
-                    dateFormat: 'dd/mm/yy'
-                });
+                // It must be disabled in view form
+//                $('.date input').datepicker({
+//                    inline: true,
+//                    dateFormat: 'dd/mm/yy'
+//                });
                 
                 // tabs
                 $('#tabs').tabs();
-
 
             });
 </script>
         <div id="formsWrapper" class="fullWidth">
         
-            <form name="exampleForm1" method="POST" action="#" id="exampleForm1_id" class="fullWidth_with padding">
+            <form name="exampleForm1" method="POST" action="#" id="exampleForm1_id" class="fullWidth">
                 <div id="tabs">        
                     <ul>
                         <li><a href="#tabs-1">tab 1</a></li>
@@ -26,55 +35,55 @@ $(function(){
 
                             <legend class="fullWidth_with padding">legend</legend>
 
-                            <div class="textField fullWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item1" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField fullWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item1" class="fullWidth ">label</label>
+                                <input id="exampleForm1_fieldset1_item1" class="fullWidth_with padding" type="text" readonly="readonly" name="" value=""  />
+                            </p>
 
-                            <div class="textField halfWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item2" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField halfWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item2" class="fullWidth">label</label>
+                                <input id="exampleForm1_fieldset1_item2" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="textField halfWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item3" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField halfWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item3" class="fullWidth">label</label>
+                                <input id="exampleForm1_fieldset1_item3" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="textField thirdWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item4" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField thirdWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item4" class="fullWidth">label</label>
+                                <input id="exampleForm1_fieldset1_item4" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="textField thirdWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item5" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField thirdWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item5" class="fullWidth">label</label>
+                                <input id="exampleForm1_fieldset1_item5" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="textField thirdWidth_with padding">
-                                <p class="fullWidth fakeLabel">label</p>
-                                <p id="exampleForm1_fieldset1_item6" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="textField thirdWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item6" class="fullWidth">label</label>
+                                <input id="exampleForm1_fieldset1_item6" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="email quarterWidth_with padding">
-                                <p class="fullWidth fakeLabel">email</p>
-                                <p id="exampleForm1_fieldset1_item7" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="email quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item7" class="fullWidth">email</label>
+                                <input id="exampleForm1_fieldset1_item7" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="email quarterWidth_with padding">
-                                <p class="fullWidth fakeLabel">email</p>
-                                <p id="exampleForm1_fieldset1_item8" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="email quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item8" class="fullWidth">email</label>
+                                <input id="exampleForm1_fieldset1_item8" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="email quarterWidth_with padding">
-                                <p class="fullWidth fakeLabel">email</p>
-                                <p id="exampleForm1_fieldset1_item9" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="email quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item9" class="fullWidth">email</label>
+                                <input id="exampleForm1_fieldset1_item9" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="email quarterWidth_with padding">
-                                <p class="fullWidth fakeLabel">email</p>
-                                <p id="exampleForm1_fieldset1_item10" class="fullWidth fakeInput" >testValue</p>
-                            </div>
+                            <p class="email quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset1_item10" class="fullWidth">email</label>
+                                <input id="exampleForm1_fieldset1_item10" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
 
                         </fieldset>
@@ -83,67 +92,68 @@ $(function(){
                         <fieldset class="fullWidth_with padding">
                             <legend class="fullWidth_with padding">legend</legend>
 
-                            <div class="date localized quarterWidth_with padding">
-                                <p class="fullWidth fakeLabel">date 1</p>
-                                <p id="exampleForm1_fieldset2_item1" class="fullWidth fakeInput" >gg/mm/aaaa</p>
-                            </div>
+                            <p class="date localized quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item1" class="fullWidth">date 1</label>
+                                <input id="exampleForm1_fieldset2_item1" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
 
-                            <div class="date localized quarterWidth_with padding newRow">
-                                <p class="fullWidth fakeLabel">date 2</p>
-                                <p id="exampleForm1_fieldset2_item2" class="fullWidth fakeInput" >gg/mm/aaaa</p>
-                            </div>
-                            
-                            <div class="select thirdWidth_with padding newRow">
-                                <p class="fullWidth fakeLabel">select</p>
-                                <p id="exampleForm1_fieldset2_item3_1" class="fullWidth fakeInput" >option1</p>
-                                <p id="exampleForm1_fieldset2_item3_2" class="fullWidth fakeInput" >option1</p>
-                            </div>
+                            <p class="date localized quarterWidth_with padding newRow">
+                                <label for="exampleForm1_fieldset2_item2" class="fullWidth">date 2</label>
+                                <input id="exampleForm1_fieldset2_item2" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="" />
+                            </p>
+                            <!-- 
+                            SELECT ELEMENTS must be converted into a simple <label><input> pair in view mode                            
+                            -->
+                            <p class="select thirdWidth_with padding newRow">
+                                <label for="exampleForm1_fieldset2_item3" class="fullWidth">select</label>
+                                <input id="exampleForm1_fieldset2_item3" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="option 1"/>
+                            </p>
 
-                            <div class="select thirdWidth_with padding">
-                                <p class="fullWidth fakeLabel">select</p>
-                                <p id="exampleForm1_fieldset2_item4" class="fullWidth fakeInput" >option 1</p>
-                            </div>
+                            <p class="select thirdWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item4" class="fullWidth">select</label>
+                                <input id="exampleForm1_fieldset2_item4" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="option 2"/>
+                            </p>
 
-                            <div class="select thirdWidth_with padding">
-                                <p class="fullWidth fakeLabel">select</p>
-                                <p id="exampleForm1_fieldset2_item5" class="fullWidth fakeInput" >option 1</p>
-                            </div>
+                            <p class="select thirdWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item5" class="fullWidth">select</label>
+                                <input id="exampleForm1_fieldset2_item5" class="fullWidth_with padding" type="text" readonly="readonly" name="" value="option 3"/>
+                            </p>
+                            <!-- 
+                            RADIO BUTTONS ELEMENTS must be converted into a simple <label><input> pair in view mode                            
+                            -->
+                            <p class="radio quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item6" class="fullWidth">Which is your favourite radio?</label>
+                                <input id="exampleForm1_fieldset2_item6" class="localized fullWidth_with padding" type="text" readonly="readonly" name="" value="radio 1" />
+                            </p>
+                            <!-- 
+                            CHECKBOXES NEED A DIFFERENT TRATMENT:
+                            Due to the fact that they can show more than one value, they can't be converted in a single <label>/more than 1 <input>,
+                            it would cause a wrong id correspondance (label referring to more than 1 id, and multiple identical ids).
+                            The solution is creating a single pair, with the values merged in one.
+                            -->
+                            <p class="checkBox quarterWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item10" class="fullWidth">Pick some of these.</label>
+                                <input id="exampleForm1_fieldset2_item10" class="localized fullWidth_with padding" type="text" readonly="readonly" name="" value="checkox 1, checkbox 2" />
+                            </p>
 
-                            <div class="freeText fullWidth_with padding">
-                                Which is your favourite radio?
-                            </div>
+                            <p class="textArea halfWidth_with padding newRow">
+                                <label for="exampleForm1_fieldset2_item14" class="fullWidth">Notes 1</label>
+                                <textarea id="exampleForm1_fieldset2_item14" class="fullWidth_with padding" readonly="readonly" name=""></textarea>
+                            </p>
 
-                            <div class="radio quarterWidth_with padding">
-                                <p id="exampleForm1_fieldset2_item6" class="fullWidth fakeInput" >radio 1</p>
-                            </div>
-
-                            <div class="freeText fullWidth_with padding">
-                                Pick some of these.
-                            </div>
-
-                            <div class="checkBox quarterWidth_with padding">
-                                <p id="exampleForm1_fieldset2_item7_1" class="fullWidth fakeInput" >checkbox 1</p>
-                                <p id="exampleForm1_fieldset2_item7_2" class="fullWidth fakeInput" >checkbox 2</p>
-                            </div>
-
-                            <div class="textArea halfWidth_with padding newRow">
-                                <p class="fullWidth fakeLabel">Notes 1</p>
-                                <p id="exampleForm1_fieldset2_item8" class="fullWidth fakeInput" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget libero ut nibh semper venenatis id vitae est. Vivamus varius egestas nisi. Donec in purus elit. Nulla vitae sodales leo. Etiam vestibulum, ipsum ultrices bibendum molestie, lorem mauris rhoncus dolor, vitae fringilla sapien nunc vitae quam. Cras condimentum condimentum aliquam. Integer id odio lectus. Fusce ut magna velit, sed interdum nunc. Nunc vel tellus lacus.</p>
-                            </div>
-
-                            <div class="textArea halfWidth_with padding">
-                                <p class="fullWidth fakeLabel">Notes 2</p>
-                                <p id="exampleForm1_fieldset2_item9" class="fullWidth fakeInput" >Etiam ullamcorper adipiscing diam, dignissim faucibus sem bibendum vitae. Curabitur et augue sit amet erat pretium auctor. Etiam condimentum orci fermentum sapien tincidunt mollis. Donec vel est in felis gravida dictum. Pellentesque id malesuada velit. Fusce auctor ante sed ligula tincidunt ullamcorper. </p>
-                            </div>
+                            <p class="textArea halfWidth_with padding">
+                                <label for="exampleForm1_fieldset2_item15" class="fullWidth">Notes 2</label>
+                                <textarea id="exampleForm1_fieldset2_item15" class="fullWidth_with padding" readonly="readonly" name=""></textarea>
+                            </p>
 
 
 
                         </fieldset>
                     </div>
                     <div class="btnsArea fullWidth_with padding">
-                        <input type="hidden" name="hiddenValue1" value="hidden1" />
-                        <input type="hidden" name="hiddenValue2" value="hidden2" />
-                        <input type="hidden" name="hiddenValue3" value="hidden3" />
+                        <input type="hidden" readonly="readonly" name="" value="hidden1" />
+                        <input type="hidden" readonly="readonly" name="" value="hidden2" />
+                        <input type="hidden" readonly="readonly" name="" value="hidden3" />
                         <button type="submit" name="action" value="cancel" class="floatLeft">Cancel</button>
                         <button type="submit" name="action" value="edit" class="floatRight">Edit</button>
                     </div>

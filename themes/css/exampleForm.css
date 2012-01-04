@@ -219,6 +219,7 @@ form .padding {
     margin-right: 10px !important;
     float: left;
     line-height: 1em;
+    clear: both;
 }
 
 /* ### TMP DEBUG CODE */
