@@ -23,6 +23,9 @@
         <title>formerita | a form framework</title>
         <link type="text/css" href="themes/development_theme/css/common.css" rel="stylesheet" />
         <link type="text/css" href="themes/css/exampleForm.css" rel="stylesheet" />
+        <!--[if IE 8]>
+        <link type="text/css" href="themes/css/ie8_patches.css" rel="stylesheet" />
+        <![endif]-->
         <?php include "modules/scriptsCall.php"?>
     </head>
     
