@@ -178,6 +178,11 @@ html
     margin-top: -2em !important;
 }
 
+.formerita fieldset p {
+    float: left;
+    margin: 0;
+}
+
 .formerita label,
 .fakeLabel
 {
