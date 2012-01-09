@@ -34,12 +34,19 @@
             $selected = "";
             if($_REQUEST['theme'] == $themePath) {
                 $selected = "selected=\"selected\"";
+                $creditsPath = $themePath."/credits.php";
             }
             ?>
         <option value="<?php echo $themePath?>" <?php echo $selected?>><?php echo $themeName?></option>
-        <?php   
+        <?php 
+        
         }
 
     ?>
     </select>
+    <?php 
+    
+    include $creditsPath;
+    
+    ?>
 </form>

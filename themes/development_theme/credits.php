@@ -1,0 +1,1 @@
+<p>Empty basic theme, switch to other themes to see Formerita working!</p>

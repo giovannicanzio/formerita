@@ -1,0 +1,35 @@
+/*
+#
+#    Formerita
+#    (c) 2011 Giovanni Canzio <giovanni.canzio@gmail.com>
+#    
+#    This file is part of Formerita
+#
+#    This is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Formerita is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+*/
+
+#themeSwitcher 
+{
+    position: fixed;
+    border: #f90 3px solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 10px 15px;
+    top: 20px;
+    right: 20px;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 10px;
+    z-index: 1000;
+    width: 300px;
+}
