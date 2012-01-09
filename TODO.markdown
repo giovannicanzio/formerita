@@ -12,7 +12,7 @@
 
 # BRANCH 2
 
-* code function to build form after parsing xml(/json?)
+* Implement XSLT for form generation
 
 * FIELD CONTROL
 

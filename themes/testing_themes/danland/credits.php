@@ -1,2 +1,1 @@
-<p><strong><a href="http://drupal.org/project/danland" target="_blank">Danland</a></strong> is a Drupal theme.<br />
-<strong>Theme page:</strong> <a href="http://drupal.org/project/danland" target="_blank">drupal.org/project/danland</a></p>
+<p><strong><a href="http://drupal.org/project/danland" target="_blank">Danland</a></strong> is a Drupal theme.</a></p>

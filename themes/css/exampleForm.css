@@ -22,35 +22,40 @@
 STYLE CLASSES SPECS
 
     .newRow
-        Apply to the element you want to start a new row of elements
+        Applies to the element you want to start a new row of elements
+        
+    .hidden
+        Applies visibility: hidden property to the element
 
+    .totHidden
+        Applies display: none property to the element
 
     .fullWidth
-        Apply on the element you want to be 100% of the parent
+        Applies on the element you want to be 100% of the parent
 
 
     .fullWidth_with 
-        Works with .padding class; like .fullWidth but with a bit of padding
+        Applies with .padding class; like .fullWidth but with a bit of padding
 
 
     .halfWidth 
-        Apply on the element you want to be 50% of the parent
+        Applies on the element you want to be 50% of the parent
 
 
     .halfWidth_with 
-        Works with .padding class; like .halfWidth but with a bit of padding
+        Applies with .padding class; like .halfWidth but with a bit of padding
 
 
     .thirdWidth 
-        Apply on the element you want to be 33% of the parent
+        Applies on the element you want to be 33% of the parent
 
 
     .thirdWidth_with 
-        Works with .padding class; like .thirdWidth but with a bit of padding
+        Applies with .padding class; like .thirdWidth but with a bit of padding
 
 
     .quarterWidth 
-        Apply on the element you want to be 25% of the parent
+        Applies on the element you want to be 25% of the parent
 
 
     .quarterWidth_with 
@@ -102,11 +107,6 @@ POINTING AND TIPIZATION CLASSES
 
 /* ### GLOBAL STYLES ### */
 
-html 
-{
-    font-family: "Verdana", "Arial", sans-serif;
-}
-
 
 .floatLeft 
 {
@@ -123,11 +123,18 @@ html
     clear: both;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.totHidden {
+    display: none;
+}
+
 #formsWrapper,
 #formsWrapper * 
 {
     margin: 0;
-    /*padding: 0;*/
     position: relative;
     font-size: 1em;
     float: left;
@@ -136,6 +143,7 @@ html
 .formerita 
 {
     color: #333;
+    line-height: 1em !important;
 }
 
 .formerita input,
@@ -149,13 +157,6 @@ html
     border-radius: 4px;
     color: #666666;
     font-family: "Courier", "Courier New" !important;
-}
-
-.fakeInput 
-{
-    border: none;
-    background: #ddd;
-    
 }
 
 .formerita fieldset 
@@ -175,7 +176,7 @@ html
 {
     font-size: 1.2em !important;
     font-weight: bolder;
-    margin-top: -2em !important;
+    margin-top: -1.8em !important;
 }
 
 .formerita fieldset p {
