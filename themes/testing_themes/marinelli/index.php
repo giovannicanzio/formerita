@@ -76,7 +76,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","ajaxPageState":{"theme":"marine
   })();
 
 </script>
-  <link type="text/css" href="themes/css/exampleForm.css" rel="stylesheet" />
+  <link type="text/css" href="themes/css/formerita.css" rel="stylesheet" />
   <link type="text/css" href="modules/theme_switcher.css" rel="stylesheet" />
 <!--[if IE 8]>
     <link type="text/css" href="themes/css/ie8_patches.css" rel="stylesheet" />
