@@ -176,7 +176,8 @@ POINTING AND TIPIZATION CLASSES
 {
     font-size: 1.2em !important;
     font-weight: bolder;
-    margin-top: -1.8em !important;
+    /*margin-top: -1.8em !important;*/
+    margin-top: -1.75em !important;
 }
 
 .formerita fieldset p {
@@ -258,8 +259,12 @@ button
 .formerita * select,
 .formerita * textarea
 {
+    /*
     width: 99%;
     padding: 5px 0.5% !important;
+    */
+    width: 100%;
+    padding: 0.2em 0 !important;
 }
 
 
@@ -284,6 +289,10 @@ button
 
 /* jQuery UI patches */
 
+.ui-tabs {
+    float: left;
+}
+
 .ui-tabs .ui-tabs-nav li a 
 {
     float: left !important;
@@ -302,4 +311,3 @@ button
     padding: 0.8em 0.6em !important;
     width: 98.3% !important;
 }
-
