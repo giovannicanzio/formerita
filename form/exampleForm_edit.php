@@ -25,7 +25,7 @@
                         <li><a href="#tabs-2">tab 2</a></li>
                     </ul>
                     <div id="tabs-1">
-                        <fieldset class="fullWidth_with padding">
+                        <fieldset>
 
                             <legend class="">legend</legend>
 
@@ -83,7 +83,7 @@
                         </fieldset>
                     </div>
                     <div id="tabs-2">
-                        <fieldset class="fullWidth_with padding">
+                        <fieldset>
                             <legend class="">legend</legend>
 
                             <p class="date localized quarterWidth_with padding">

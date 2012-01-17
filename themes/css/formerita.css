@@ -100,7 +100,7 @@ POINTING AND TIPIZATION CLASSES
 
 */
 
-/* ### GLOBAL STYLES ### */
+/* ### GLOBAL STYLES ### */
 
 html 
 {
@@ -201,6 +201,7 @@ button,
     border-radius: 4px;
     padding: 5px 10px !important;
     margin: 3px !important;
+    float: left;
 }
 
 .btnsArea {

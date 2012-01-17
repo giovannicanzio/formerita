@@ -34,7 +34,7 @@ anyway it's STRONGLY recommended to set up a security policy in the backend deve
                         <li><a href="#tabs-2">tab 2</a></li>
                     </ul>
                     <div id="tabs-1">
-                        <fieldset class="fullWidth_with padding">
+                        <fieldset>
 
                             <legend class="">legend</legend>
 
@@ -92,7 +92,7 @@ anyway it's STRONGLY recommended to set up a security policy in the backend deve
                         </fieldset>
                     </div>
                     <div id="tabs-2">
-                        <fieldset class="fullWidth_with padding">
+                        <fieldset>
                             <legend class="">legend</legend>
 
                             <p class="date localized quarterWidth_with padding">
